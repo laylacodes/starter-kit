@@ -86,20 +86,16 @@ const config = {
 				source: '/api/collect',
 				destination: `${ADVANCED_ANALYTICS_BASE_URL}/api/collect`,
 			},
+			{
+				source: "/blog",
+				destination: "https://starter-hlqq3lyn6-laylacodes.vercel.app/blog",
+			},
+			{
+				source: "/blog/:path*",
+				destination: "https://starter-hlqq3lyn6-laylacodes.vercel.app/blog/:path*",
+			},
 		];
 	},
-	async rewrites() {
-		return [
-		  {
-			source: "/blog",
-			destination: "https://starter-ji7jgajea-laylacodes.vercel.app/blog", 
-		  },
-		  {
-			source: "/blog/:path*",
-			destination: "https://starter-ji7jgajea-laylacodes.vercel.app/blog/:path*", 
-		  },
-		];
-	  },
 	async redirects() {
 		return await getRedirectionRules();
 	},
