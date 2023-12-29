@@ -92,11 +92,11 @@ const config = {
 		return [
 		  {
 			source: "/blog",
-			destination: "https://starter-cwmseuqkw-laylacodes.vercel.app/blog", 
+			destination: "https://starter-ji7jgajea-laylacodes.vercel.app/blog", 
 		  },
 		  {
 			source: "/blog/:path*",
-			destination: "https://starter-cwmseuqkw-laylacodes.vercel.app/blog/:path*", 
+			destination: "https://starter-ji7jgajea-laylacodes.vercel.app/blog/:path*", 
 		  },
 		];
 	  },
