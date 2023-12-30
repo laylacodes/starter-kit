@@ -88,11 +88,11 @@ const config = {
 			},
 			{
 				source: "/blog",
-				destination: "https://starter-dbsktdijg-laylacodes.vercel.app/blog",
+				destination: "https://starter-kit-laylacodes.vercel.app/blog",
 			},
 			{
 				source: "/blog/:path*",
-				destination: "https://starter-dbsktdijg-laylacodes.vercel.app/blog/:path*",
+				destination: "https://starter-kit-laylacodes.vercel.app/blog/:path*",
 			},
 		];
 	},
