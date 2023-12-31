@@ -85,15 +85,7 @@ const config = {
 			{
 				source: '/api/collect',
 				destination: `${ADVANCED_ANALYTICS_BASE_URL}/api/collect`,
-			},
-			{
-				source: "/blog",
-				destination: "https://starter-fnmpv2pvx-laylacodes.vercel.app/blog",
-			},
-			{
-				source: "/blog/:path*",
-				destination: "https://starter-fnmpv2pvx-laylacodes.vercel.app/blog/:path*",
-			},
+			}
 		];
 	},
 	async redirects() {
